@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>C++ Для Новичков — Главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Контейнер -->
+    <div class="container">
+        <!-- Шапка -->
+        <header>
+            <h1>C++ Для Новичков</h1>
+            <p class="subtitle">Курс, где ты не зубришь синтаксис — ты понимаешь, как работает компьютер изнутри.</p>
+            <div class="toc">
+                <a href="#lessons">Перейти к урокам</a>
+            </div>
+        </header>
+
+        <!-- Основной контент: Выбор уроков -->
+        <section id="lessons">
+            <h2>Выбери свою первую пару</h2>
+            <p style="text-align: center; color: var(--light-text); max-width: 700px; margin: 2rem auto 4rem;">
+                Каждый урок — это отдельный мир. Начни с первого шага. Не бойся сложности — ты уже на правильном пути.
+            </p>
+
+            <div class="grid cols-2">
+                <!-- Урок 1 -->
+                <a href="pair1.html" class="tool-card lesson-card">
+                    <div class="tool-icon">🧠</div>
+                    <h3>Урок 1: Что такое программирование?</h3>
+                    <p>Ты не учишь язык — ты учишь говорить с машиной. Поймёшь, почему компьютер — не волшебник, а слепой исполнитель.</p>
+                    <div class="chip">Основы</div>
+                </a>
+
+                <!-- Урок 2 -->
+                <a href="lesson2.html" class="tool-card lesson-card">
+                    <div class="tool-icon">💻</div>
+                    <h3>Урок 2: Твоя первая программа</h3>
+                    <p>Напишешь «Hello, World!» — но не просто скопируешь. Поймёшь, как компилятор превращает твой код в машинные инструкции.</p>
+                    <div class="chip">Практика</div>
+                </a>
+
+                <!-- Урок 3 -->
+                <a href="lesson3.html" class="tool-card lesson-card">
+                    <div class="tool-icon">📦</div>
+                    <h3>Урок 3: Переменные и типы данных</h3>
+                    <p>Почему int ≠ long? Почему float теряет точность? Узнаешь, как компьютер хранит числа — и почему 0.1 + 0.2 ≠ 0.3.</p>
+                    <div class="chip">Память</div>
+                </a>
+
+                <!-- Урок 4 -->
+                <a href="lesson4.html" class="tool-card lesson-card">
+                    <div class="tool-icon">🔑</div>
+                    <h3>Урок 4: Указатели — твой ключ к железу</h3>
+                    <p>Самая страшная тема… и самая мощная. Узнаешь, что такое адрес памяти, зачем он нужен и как не сломать систему.</p>
+                    <div class="chip">Глубина</div>
+                </a>
+
+                <!-- Урок 5 -->
+                <a href="lesson5.html" class="tool-card lesson-card">
+                    <div class="tool-icon">⚙️</div>
+                    <h3>Урок 5: Функции и стек вызовов</h3>
+                    <p>Как работает вызов функции? Почему stack overflow? Поймёшь, как компьютер управляет выполнением — от начала до конца.</p>
+                    <div class="chip">Логика</div>
+                </a>
+
+                <!-- Урок 6 -->
+                <a href="lesson6.html" class="tool-card lesson-card">
+                    <div class="tool-icon">🗑️</div>
+                    <h3>Урок 6: Управление памятью</h3>
+                    <p>malloc, new, delete — не магия. Ты будешь выделять и освобождать память вручную. И поймёшь, почему это важно.</p>
+                    <div class="chip">Контроль</div>
+                </a>
+
+                <!-- Урок 7 -->
+                <a href="lesson7.html" class="tool-card lesson-card">
+                    <div class="tool-icon">🎮</div>
+                    <h3>Урок 7: Первый проект — игра «Угадай число»</h3>
+                    <p>Соберёшь первую полноценную программу: ввод, логика, циклы, проверки. И поймёшь — ты уже программист.</p>
+                    <div class="chip">Проект</div>
+                </a>
+
+                <!-- Урок 8 -->
+                <a href="lesson8.html" class="tool-card lesson-card">
+                    <div class="tool-icon">🚀</div>
+                    <h3>Урок 8: Почему C++ — основа всего</h3>
+                    <p>От игр до ядер ОС. Узнаешь, где живёт C++ — и почему Google, NASA и Sony используют его, а не Python.</p>
+                    <div class="chip">Фундамент</div>
+                </a>
+            </div>
+
+            <div style="text-align: center; margin-top: 5rem;">
+                <p style="color: var(--light-text); font-size: 1.1rem;">Начни с первого шага — остальное придет.</p>
+                <a href="lesson1.html" class="btn large-btn outline">Начать с Урока 1</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Футер -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3><span class="mark"></span> C++ Для Новичков</h3>
+                <p class="footer-description">Курс, где ты не запоминаешь синтаксис — ты понимаешь суть.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Уроки</h4>
+                <ul>
+                    <li><a href="pair1.html">Урок 1: Что такое программирование?</a></li>
+                    <li><a href="lesson2.html">Урок 2: Твоя первая программа</a></li>
+                    <li><a href="lesson3.html">Урок 3: Переменные и данные</a></li>
+                    <li><a href="lesson4.html">Урок 4: Указатели</a></li>
+                    <li><a href="lesson5.html">Урок 5: Функции</a></li>
+                    <li><a href="lesson6.html">Урок 6: Память</a></li>
+                    <li><a href="lesson7.html">Урок 7: Проект</a></li>
+                    <li><a href="lesson8.html">Урок 8: Фундамент</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Ресурсы</h4>
+                <ul>
+                    <li><a href="#">Инструменты для старта</a></li>
+                    <li><a href="#">Частые ошибки новичков</a></li>
+                    <li><a href="#">Глоссарий терминов</a></li>
+                    <li><a href="#">Компиляторы и IDE</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2025 C++ Для Новичков. Все права защищены. | Создано с ❤️ для тех, кто хочет <strong>понимать</strong>, а не копировать.
+        </div>
+    </footer>
+
+    <script>
+        // Простая анимация при прокрутке
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('section');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+            sections.forEach(section => observer.observe(section));
+
+            // Анимация карточек при входе в зону
+            const cards = document.querySelectorAll('.tool-card');
+            const cardObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animation = 'fadeInUp 0.8s forwards 0.2s';
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            cards.forEach(card => cardObserver.observe(card));
+        });
+    </script>
+</body>
+</html>
